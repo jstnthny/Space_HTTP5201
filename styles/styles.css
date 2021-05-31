@@ -1,0 +1,157 @@
+/* Header */
+
+
+header{
+
+    background-image:  url(../images/brian-mcgowan-I0fDR8xtApA-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+
+}
+
+nav{
+    color: #fbf7f0;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+ 
+
+
+}
+
+nav p{
+    font-size: 40px;
+    color: #d9e4dd;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+
+}
+
+nav ul li {
+
+    margin: 0 20px 0 20px;
+    list-style: none;
+
+}
+
+nav a{
+    color: #d9e4dd;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #d9e4dd;
+}
+
+header h1{
+
+    font-size: 110px;
+    text-align: center;
+    color: #d9e4dd;
+    font-weight: 900;
+    margin-top: 300px;
+  
+
+}
+
+/* Button */
+
+.myButton {
+	background-color:transparent;
+	border-radius:15px;
+	border:2px solid #d9e4dd;
+	display:inline-block;
+	cursor:pointer;
+	color:#d9e4dd ;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+    background-color:#d9e4dd;
+    color: #555555;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.center-button{
+
+   text-align: center;
+   margin-top: 10px;
+
+}
+
+.space-more:hover{
+    background-color: #d9e4dd;
+}
+
+/* Main */
+
+main{
+    background-color: #18191B;
+}
+
+main h2, h3{
+    color: #d9e4dd;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2.5em;
+}
+
+main p{
+    color: #fbf7f0;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+}
+
+ .center{
+    text-align: center;
+}
+
+main ul{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main ul a {
+    color: #fbf7f0;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+main ul a:hover{
+    color: #64B6AC;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    background-color: #18191B;
+    color: #fbf7f0;
+    padding-top: 2em;
+    font-size: 1.2em;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 375px){
+    header h1{
+        font-size: 5em;
+    }
+}
